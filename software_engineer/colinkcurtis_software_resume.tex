@@ -1,0 +1,458 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colin K Curtis Resume for Code Development
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Updated May 7 2018
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,final]{memoir}
+
+% misc
+\pagestyle{empty}					% no pagenumbering
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% font setup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sfdefault]{noto}    % Google Noto font, sfdefault -> sans-serif is default                               % invoke '\notoserif{ xxx }' to make a selection with serif
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% required packages (add your own)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{flowfram}											% column layout
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}	% margins
+\usepackage{graphicx}											% figures
+\usepackage{url}												% URLs
+\usepackage[usenames,dvipsnames]{xcolor}						% color
+\usepackage{multicol}											% columns env.
+	\setlength{\multicolsep}{0pt}
+\usepackage{paralist}											% compact lists
+\usepackage{tikz}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convenience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\LargeSep}{\vspace{1.3em}}
+\newcommand{\Sep}{\vspace{1.0em}}
+\newcommand{\SmallSep}{\vspace{0.4em}}
+
+\newenvironment{Summary}
+	{\ignorespaces\textbf{\color{Blue}Achievements}}
+	{\Sep\ignorespacesafterend}
+	
+\newcommand{\CVSection}[1]
+	{\LARGE\textbf{#1}\par
+	\SmallSep\normalsize}
+
+\newcommand{\CVItem}[1]
+	{\textbf{\color{Blue} #1}}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\Huge \bfseries {\color{Blue} Colin K. Curtis - Predictive Modeling / Data Analysis} \\
+
+
+
+\normalsize \bfseries \tab github.com/colinkcurtis \tab colinkcurtis@gmail.com  \tab colinkcurtis.com \tab  (919) 525 7837 \\
+
+%\tab medium@colinkcurtis
+
+\normalsize\normalfont
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Major Achievements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%]
+
+\notoserif \CVSection{Major Achievements}
+\normalfont
+
+\Sep
+
+\begin{compactitem}
+    
+    \item \textbf{Author} - Multiple academic publications in the Physics sub-fields of Tribology, Optics, and Polymer Science
+    \SmallSep
+
+    \item \textbf{Developer} - Adaptive Learning Analysis for Images (ALAI) 
+    \SmallSep
+    
+    \item \textbf{Developer} - Gibber Trading Tracker (GTT)
+    \SmallSep
+
+    \item \textbf{Project Manager and Author} - 'Friction: Friend and Foe', book chapter in Surface and Interface Science Vol. 8
+    \SmallSep
+    
+    \item \textbf{National Meritorious Winner (Team of 3)} - COMAPS MCM, 2011 - Radio Repeater Network Optimization
+	
+	
+\end{compactitem}
+
+\LargeSep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Work Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Work Experience}
+\normalfont
+
+\Sep
+
+\CVItem{Research Assistant, Krim Group; January 2015 - Present} 
+\begin{compactitem}[\color{Blue}$\circ$]
+   
+    \SmallSep
+
+    \item Research focus: data analysis, predictive modeling, functionalized carbon nano-structures, friction, surface effects
+    \item Paid Research Assistant for two major National Science Foundation funded projects: DMREF and QCM
+    \item Utilized software packages and programming environments including LabVIEW, MATLAB, and Python 3
+    \item Central responsibility was collection, analysis, interpretation, and presentation of data
+    \item Optimization and organization of the lab group's time and equipment
+    \item See Research Publications
+    
+
+\end{compactitem}
+
+\Sep
+
+\CVItem{Research Assistant, Clarke Group; Jan 2013 - July 2014}
+\begin{compactitem}[\color{Blue}$\circ$]
+    
+    \SmallSep
+
+    \item Research focus: Polymers, LASER for spectroscopy and photothermal, nanoparticle characterization and synthesis
+    \item Designed and built a melt electro-spinning device for polymers, producing ultra-fine fibers without solvent
+    \item Utilized ANSYS Maxwell mesh-calculation to simulate 3-D electro-magnetic fields
+    \item Used and maintained LabVIEW software systems for instrument control and data collection
+    \item Second Author, \textit{Unconfined, melt edge electrospinning... polymer jets}
+
+\end{compactitem}
+
+\Sep
+
+\CVItem{Teaching Assistant, Department of Physics, NC State University; August 2012 - May 2014, August 2014 - Dec 2014}
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \SmallSep
+	
+    \item Instructor for introductory physics laboratory sections (PY 205 and PY 208)
+    \item Provided theoretical introduction to the relevant course materials
+    \item Organized and maintained teaching laboratory equipment
+    \item Provided real-time feedback and assistance to students via the Socratic method
+\end{compactitem}
+
+\LargeSep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Code
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Code in Development}
+
+\normalfont
+
+\Sep
+
+\CVItem{code repository at www.github.com/colinkcurtis} 
+
+\Sep
+
+\CVItem{Adaptive Learning Analysis for Images (ALAI), A Machine Learning Application} 
+
+\begin{compactitem}[\color{Blue}$\circ$]
+   
+    \SmallSep
+
+    \item This automation reduced costs of image analysis, for a single publication, from \$2500 dollars (50 hours at \$50 per hour) to 25 dollars (30 minutes at \$50 per hour)!
+
+    \item Adaptive Learning algorithm, which optimizes the fitting, is a generalized algorithm
+
+    \item Fitting of data using iterative categorization and regression
+
+    \item Weighting and bias of fit automatically calculated according to uncertainty in measurement
+
+    \item Classification of continuous fitting zones (linear v. exponential) by $Adjusted-R^2$ goodness of fit comparison
+
+    \item In the context of my doctoral research, used to find: fractal dimension, saturation roughness, and correlation analysis from Atomic Force Microscope images
+
+    \item Written in MATLAB, chosen as the correct tool for processing large matrices
+    
+
+\end{compactitem}
+
+\newpage
+
+\CVItem{Gibber Trading Tracker (GTT)} 
+
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \SmallSep
+    
+    \item Retrieve, filter, and record data for: market listings, account balances, and transaction records
+    
+    \item Retrieve data from remote financial databases via RESTful style (Bittrex API 2.0 in code sample)
+    
+    \item Filter data using Regular Expression methods used to filter and sort to ensure data integrity and usability
+    
+    \item Record data in a format of the user's choosing, including SQL, CSV, or JSON formats
+    
+    \item Proprietary financial predictive modeling and data analysis built in and presented via GUI
+    
+    \item Written in Python 3 to allow for user customization and flexibility
+    
+    \item Python provides access to numerous ready-made and custom data analysis tools, which any user can build onto GTT
+   
+
+\end{compactitem}
+
+\LargeSep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pro Skills and Interests
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Professional Skills \& Interests}
+
+\normalfont
+
+\Sep
+
+\CVItem{Data Science \& Machine Learning Toolkit}
+
+\SmallSep
+
+\begin{multicols}{4}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+		
+		\item SciPy
+        \SmallSep
+        
+        \item Pandas
+        \SmallSep
+        
+        \item DataFrames
+        \SmallSep
+        
+        \item Custom algorithms
+        
+    
+	\end{compactitem}
+
+\end{multicols}
+
+\Sep
+
+\CVItem{Languages \& Environments}
+
+\SmallSep
+
+\begin{multicols}{4}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+		
+		\item Python 3
+        \SmallSep
+        
+        \item MATLAB
+		\SmallSep
+        
+        \item Debian and Arch Linux
+        \SmallSep
+
+        \item VMs and Virtual Envs
+    
+	\end{compactitem}
+
+\end{multicols}
+
+\Sep
+
+\CVItem{Coding Skills \& Abilities}
+
+\SmallSep
+
+\begin{multicols}{4}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+
+        \item Data engineering
+        \SmallSep
+
+        \item Predictive modeling
+        \SmallSep
+   
+        \item Agile methodology
+        \SmallSep
+
+        \item LaTeX type-setting
+        
+        
+	\end{compactitem}
+
+\end{multicols}
+
+\Sep
+
+\CVItem{Other Skills \& Interests}
+
+\SmallSep
+
+\begin{multicols}{4}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+        
+
+        \item Technical writing
+
+        \SmallSep
+
+        \item Statistical Mechanics
+        \SmallSep
+        
+
+        \item Conversational Spanish
+        \SmallSep
+        
+
+		\item HackerRank challenges
+
+        
+        
+	\end{compactitem}
+
+\end{multicols}
+
+\LargeSep
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Education Milestones}
+\normalfont
+
+\Sep
+
+
+\begin{compactitem}[\color{Blue}$\circ$]
+
+\item \textbf{Ph.D. Physics}, North Carolina State University, Nanotribology (2018)
+\SmallSep
+\item \textbf{M.S. Physics}, North Carolina State University, Fluorescence Spectroscopy (2014)
+\SmallSep
+\item \textbf{B.S. Physics, Mathematics Minor}, Appalachian State University, Raman Spectroscopy (2012)
+
+
+
+\end{compactitem}
+
+
+\Sep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Research Publications}
+
+\normalfont
+
+\SmallSep
+
+\CVItem{National Science Foundation (NSF) DMREF - Designing Materials to Revolutionize and Engineer our Future} 
+
+\SmallSep
+
+\begin{compactitem}[\color{Blue}$\circ$]
+	
+       
+    \item First Author, \textit{A Comparative Study of the Nanoscale and Macroscale Attributes... of Nanodiamonds}, Beilstein Journal of Nanotechnology, Sep 2017 (PDF available here: https://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-8-205.pdf)
+    \SmallSep
+
+    \item First Author, \textit{Superparamagnetic Nanoparticle Mediated Dissipation in the Presence of External Magnetic Fields}, Manuscript in Preparation
+    \SmallSep
+
+    \item Four-department collaboration, bringing together Physics, Statistics, Material Science, and Chemistry to analyze experimental
+            materials and data. 
+    \SmallSep
+
+    \item Using multi-dimensional statistical analysis, prediction of likely-to-be-effective lubricants drives the experimental design.
+            Validation or refutation of that proposed next material was conducted and the cycle perpetuated. 
+    \SmallSep
+            
+    \item Several novel lubrication combinations were discovered, including in my
+            work with aqueous nanodiamonds
+	
+	
+\end{compactitem}
+
+\Sep
+
+\CVItem{NSF Quartz Crystal Microbalance Studies of Graphene and Graphene Oxide Membranes} 
+
+\SmallSep
+
+\begin{compactitem}[\color{Blue}$\circ$]
+    
+    \item First Author, \textit{Diffusion of Water and Ethanol through Hydrogenated Graphene and Graphene Oxide Membranes}, 
+                    Manuscript in Preparation
+    
+    
+    \SmallSep
+
+    \item Experiments involving gaseous diffusion through functionalized graphene and graphene oxide layers, in vacuum,
+    to study the permeability of, and friction experienced by, nanoscale carbon membranes in the presence of common gases
+	
+\end{compactitem}
+
+
+\Sep
+
+
+\notoserif \CVSection{Personal Interests}
+\normalfont
+
+
+\begin{multicols}{3}
+	\begin{compactitem}
+		
+		\item Sci-Fi, History, and Biographies
+		\item Running and Brazilian Jiu-jitsu
+        \item Gardening and Cooking
+			
+	\end{compactitem}
+\end{multicols}
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

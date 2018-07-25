@@ -1,0 +1,6 @@
+#ignore the following file types which latex uses in creating a .pdf from a .tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
