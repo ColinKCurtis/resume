@@ -1,0 +1,145 @@
+DATA ENGINEER
+
+
+large scale linear algebra
+distributed systems
+scientific computing
+bio-informatics
+data analytics
+data visualization
+dynamic modeling
+AI, machine learning,
+concurrency / async
+mezos / marathon / kubernetes
+docker
+data parallelism for lower overhead parallel computing
+
+mpi4py vs multiprocessing
+
+multiprocessing & MPI (openmpi for mpi4py) for parallelism (multiple processes/cpus/cores)
+
+
+julia
+python
+rust
+WASM
+
+queues
+stacks
+hash maps
+
+THE COAT OF ARMS
+
+async/await
+fast lists for long strings
+
+LINK TO a collection of blogs that actually details WTF I have been doing!
+Doing AND Sharing is critical!
+
+
+HASKELL
+rust
+python
+
+linux/unix
+
+pytest / unit tests
+
+
+clean/concise concise code 
+
+work with multi-disciplinary teams
+
+extremely strong written and verbal skills
+
+extremely strong mathematical and analytical ability
+
+solid understanding of statistics
+
+keen eye for details
+
+hypothesis and experiment design
+
+experienced software developer
+
+Python, HTML5, CSS, JavaScript, MySQL
+
+ability to adapt and serve various roles on diverse teams
+
+Full-stack experience
+
+Web Software Development
+
+User Interface Design and Documentation
+
+Algorithm Design
+
+Data Modeling and Analytics at a High Level
+
+Agile/SCRUM Development Experience
+
+Technical Troubleshooting
+
+Web Services: RESTful via OpenAPI, flask, swagger, flassger
+
+Docker, Github, Jenkins
+
+
+
+Continuous Integration and Deployment
+
+
+Python packages - most experience first
+
+
+Json
+Asyncio
+
+Networkx
+Obonet
+Pronto
+Jinja2
+Requests
+
+Concurrent
+
+Certifi
+Ipython
+Jupyter notebook
+Pandas
+Numpy
+Memory_profiler
+Zlib
+Math
+
+
+
+useful bits from other resume:	
+	
+experienced software developer	
+	
+Python, HTML5, CSS, JavaScript, MySQL	
+	
+ability to adapt and serve various roles on diverse teams	
+	
+Full-stack experience	
+	
+Web Software Development	
+	
+User Interface Design and Documentation	
+	
+Algorithm Design	
+	
+Data Modeling and Analytics at a High Level	
+	
+Agile/SCRUM Development Experience	
+	
+Technical Troubleshooting	
+	
+Web Services: RESTful via OpenAPI, flask, swagger, flassger	
+	
+Docker, Github, Jenkins	
+	
+	
+	
+Continuous Integration and Deployment	
