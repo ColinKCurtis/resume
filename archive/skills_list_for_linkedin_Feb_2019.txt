@@ -1,0 +1,50 @@
+- NIH National Center for Advancing Translational Sciences (NCATS) - Biomedical Data Translator Project - Green Team
+
+- Improved and maintained web APIs for biomedical data access (SaaS) across multiple data types
+
+- Automated creation of APIs based on large data files using 'Jinja2' scripting for Python
+
+- Accelerated data collection from APIs through use of concurrent I/O using 'asyncio' and 'concurrent' modules
+
+- Contributed analysis of large, graph-type data sets for rapid hypothesis generation in bioinformatics
+
+- Utilized Jupyter Notebooks, with Python3, to analyze data and visualize results in a modular, shareable format
+
+- Delivered effective, detail-oriented communications to multi-disciplinary teams both local and remote
+
+- Developed icees-client, now a pip module, to allow easy Python3 interfacing to ICEES clincal-data API
+
+- Performance tested APIs for high-concurrency request loads using 'JMeter'/'BlazeMeter' and 'Locust'
+ 
+- Worked remotely with a Computational Biologist, through Slack, to develop an algorithm for aggregating gene and tissue IDs and then finding ID co-occurrence patterns in that data (publication in planning stage)
+
+tools and technologies: Python 3, macOS, Linux, Windows, 
+Statistical Data Analysis, Effective Programming Skills,
+Strong Written, Verbal, and Quantitative Skills,
+Advanced Mathematics, Adaptable to Diverse Multi-disciplinary Teams, 
+Data Analysis and Engineering, Fractal Analysis,
+Systems Development and Engineering,
+First Principles based Analytical Thinking,
+Agile & SCRUM Development Experience,
+User Interface Design &  Documentation,
+
+Object Oriented Programming, 
+Algorithm Design,
+Time and Space Complexity Analysis,
+Graph Databases,
+Docker, Github, & Jenkins,
+Jupyter Notebook,
+RESTful & OpenAPI standards,
+SaaS,
+VMs & Virtual Envs,
+asyncio,
+json, yml,
+pytest, locustio,
+networkx, obonet, & pronto,
+mezos, marathon, nginx,
+Flask, swagger,
+Jinja2, cwltool,
+requests,
+pandas, numpy,
+memory_profiler,
+Zlib, basic SQL queries
