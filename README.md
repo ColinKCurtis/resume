@@ -5,11 +5,12 @@ process of gathering information from images. Specifically, I
 developed a software application, Adaptive Learning Analysis for Images (ALAI),
 to automate the calculation of surface roughness (texture) parameters 
 for images of 'any' size. The mathematical principles underlying this work 
-were developed by Dr. Jacqueline Krim, et al. ALAI was produced in MATLAB. </p>
+were developed by Dr. Jacqueline Krim, et al. MATLAB, well-suited to large-matrix
+and statistical operations, was the language used to develop ALAI. </p>
 
 <p>Currently, my strongest programming language is Python 3. My experiences at 
 Renaissance Computing Institute (RENCI) have given me the ability to produce 
 robust, clean, and modular code for use in the bioinformatics space and beyond. 
-A multi-disciplinary environment, my time at RENCI has required me to
-quickly adapt in order to deliver our Data Science teams detail-oriented
-services and code.</p>
+My time at RENCI, a highly multi-disciplinary environment, has required me to
+rapidly learn and adapt in order to deliver detail-oriented services and code 
+to our Data Science teams.</p>
