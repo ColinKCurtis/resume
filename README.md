@@ -1,7 +1,5 @@
-# The things which I am good at, condensed!
-
-## My focus is on Computer Vision and, more broadly, Software Development.
-## Spending time analyzing images from various microscopy instruments
+## My focus is on Computer Vision and, more broadly, Software Development.  
+Spending time analyzing images from various microscopy instruments
 ## at NCSU Phyics piqued my interest in automating and improving the
 ## process of gathering information from images. More specifically, I have
 ## designed a software application, Adaptive Learning Analysis for Images (ALAI),
