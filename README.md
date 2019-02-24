@@ -1,4 +1,4 @@
-## <p> My focus is on Computer Vision and, more broadly, Software Development.  
+## <p> My focus is on Software Development, Data Engineering, Machine Learning Applications.  
 Spending time analyzing images from various microscopy instruments
 at NCSU Physics piqued my interest in automating and improving the
 process of gathering information from images. Specifically, I
