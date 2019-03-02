@@ -14,5 +14,3 @@ robust, clean, and modular code for use in the bioinformatics space and beyond.
 The work at RENCI, a highly multi-disciplinary environment, has required me to
 rapidly learn and adapt in order to deliver detail-oriented services and code 
 to our Data Science teams.</p>
-
-beep
