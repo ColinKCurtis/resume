@@ -1,4 +1,4 @@
-## <p> My focus is on Computer Vision and Image Analysis through Deep Learning and Software.
+## <p> My focus is on Image Analysis and Software Engineering.
 Spending time analyzing images from various microscopy instruments
 at NCSU Physics piqued my interest in automating and improving the
 process of gathering information from images. Specifically, I
