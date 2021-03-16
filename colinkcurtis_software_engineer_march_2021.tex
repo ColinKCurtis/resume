@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Colin K Curtis Resume for Software Engineer
+% Colin K Curtis Software Engineer Resume
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Updated August 9, 2020
+% Updated March 16, 2021
 %%%%%%%%
 
 \documentclass[letterpaper,final]{memoir}
@@ -70,14 +70,9 @@
 \Sep
 \normalsize\normalfont
 
-\CVItem  \tab \bfseries {github.com/colinkcurtis \tab colinkcurtis@gmail.com  \tab colinkcurtis.com \tab  (919) 525 7837}
+\CVItem  \tab \bfseries {github.com/colinkcurtis \tab colinkcurtis@gmail.com  \tab  (919) 525 7837}
 
 \LargeSep
-%\normalsize \bfseries \tab  \\
-
-
-
-% \nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%
 % Major Achievements
@@ -90,10 +85,7 @@
 
 \begin{compactitem}
 
-    \item \textbf{Developer} - Current team member in the development of an automotive-industry, production-ready CAD system
-    \SmallSep
-
-    \item \textbf{Lead Developer} - Adaptive Learning Analysis for Images (ALAI), an Automated Image Analysis application
+    \item \textbf{Developer} - Adaptive Learning Analysis for Images (ALAI), an Automated Image Analysis application
     \SmallSep
 
     \item \textbf{Developer} - Footprint Metric Analysis Tool (FMAT) - Conversion and upgrade from MATLAB to Python
@@ -103,7 +95,6 @@
 
 
 \end{compactitem}
-
 \LargeSep
 
 %%%%%%%%%%%%%%%%%%%
@@ -112,24 +103,26 @@
 
 \notoserif \CVSection{Work Experience}
 \normalfont
-
-\CVItem{Senior Software Engineer - EASi; \textit{April 2019 - Present}}
+\Sep
+\CVItem{Software Engineer - EASi; \textit{April 2019 - Present}}
 \begin{compactitem}[\color{Blue}$\circ$]
     \SmallSep
-    \item Working with a team of software
-    engineers and material scientists on an in-house CAD system for an industry-leading automotive company.
-    The system is written with Python3 and React.js.
+    \item Working fully remotely with a team of software engineers and material scientists on an in-house CAD system for
+    a first-tier tire manufacturer
     \SmallSep
-    \item Strong focus on effective and empathetic communication with a globally distributed team
+    \item  CAD system is written in Python3 and React.js with a premium placed on reliability, readability, and reusability
     \SmallSep
-    \item Consistent coverage using unittest coverage for both Python3 and React.js code
+    \item Strong focus within the team on consistent and effective communication within a globally distributed team
+    \SmallSep
+    \item Consistent code coverage using pytest/unittest and robot frameworks
     \SmallSep
     \item Converted and upgraded FMAT, a tire image analysis tool, from MATLAB to Python3 - introduced
     \newline
-    'alpha-shapes' computational geometry technique to improve the estimates of complex 2-D geometries
+    'alpha-shapes' computational geometry technique to improve the boundary estimates of complex 2-D geometries
     \SmallSep
     \item Agile style development with two-week sprint timelines, daily stand-up meetings, and frequent code reviews
-
+    \SmallSep
+    \item Recently began prototyping dynometer-data dashboard tool featuring data analysis features for a Big 3 carmaker
 \end{compactitem}
 
 \Sep
@@ -145,12 +138,8 @@
     \SmallSep
     \item Embedded SQL and SPARQL queries within Python to access and parse Ontologies
     \SmallSep
-    \item Accelerated data collection from APIs through use of concurrent I/O using 'asyncio' and 'concurrent' modules
-    \SmallSep
     \item Performance tested services for high-concurrency request loads using and 'locustio' and 'pytest'
-    \SmallSep
-    \item Worked remotely with a Computational Biologist, through Slack, to develop an algorithm for
-    aggregating gene and tissue IDs and then finding ID co-occurrence patterns in that data (publication in planning stage)
+
 
 \end{compactitem}
 
@@ -161,12 +150,10 @@
 
     \SmallSep
 
-    \item Developed ALAI, an Automated Image Analysis application, for automating image analysis
+    \item Developed ALAI, an application for automating fractal analysis of nanoscopic images
     \item Primary skills: equipment building, data capture, data analysis, and mathematical modeling
     \item Subject-matter expertise: in carbon nano-structures, inter-facial friction
-    \item Participated in two National Science Foundation (NSF) funded projects: DMREF and QCM
     \item Software packages and programming environments included Origin, LabVIEW, MATLAB, and Python 3
-    \item See Research Publications
 
 \end{compactitem}
 \Sep
@@ -183,11 +170,10 @@
 
 \Sep
 
-\CVItem{Teaching Assistant, Department of Physics, NC State University; \textit{August 2012 - December 2014}}
+\CVItem{Lab Instructor, Department of Physics, NC State University; \textit{August 2012 - December 2014}}
 \begin{compactitem}[\color{Blue}$\circ$]
 
     \SmallSep
-
     \item Instructor for introductory physics laboratory sections (PY 205 and PY 208)
 \end{compactitem}
 
@@ -200,60 +186,41 @@
 %%%%%%%%%
 
 \notoserif \CVSection{Independent Coding Projects}
+\SmallSep
 
 \normalfont
+\CVItem{www.github.com/colinkcurtis}
+\LargeSep
 
+\CVItem{Numerati}
 \SmallSep
-
-\CVItem{code repository at www.github.com/colinkcurtis}
-
-\Sep
-
-\CVItem{Adaptive Learning Analysis for Images (ALAI), an Automated Image Analysis application}
-\SmallSep
-
 \begin{compactitem}[\color{Blue}$\circ$]
 
-    \item An Automated Image Analysis application utilizing custom iterative categorization and regression fitting techniques
+    \item Numerati is a Python package for training, validating, and predicting with existing machine learning models
     \SmallSep
-    \item Written using MATLAB, an ideal tool for linear algebra and statistics over large matrices
+    \item The tool allow users to fluidly compare the results of multiple models without leaving the interface
     \SmallSep
-    \item ALAI calculates and produces figures for: fractal dimension, saturation roughness, and correlation length
+    \item Numerati provides an accessible platform with straight-forward feedback to accelerate the pace of machine learning adoption
+    \SmallSep
+    \item This tool is in the early stages of development and changing rapidly!
+
+\end{compactitem}
+\Sep
+
+\CVItem{Adaptive Learning Analysis for Images (ALAI)}
+\SmallSep
+\begin{compactitem}[\color{Blue}$\circ$]
+    \item An automated image analysis application in MATLAB using categorization and regression fitting techniques
     \SmallSep
     \item Reduced user's active analysis time, per image, by a factor of \textasciitilde 50, drastically reducing labor costs
+    \SmallSep
+    \item ALAI calculates and produces figures for: fractal dimension, saturation roughness, and correlation length
     \SmallSep
     \item Classification of 'fitting zones' (linear v. exponential) by $Adjusted-R^2$ comparison between multiple fitting attempts
     \SmallSep
     \item Weighting and bias-of-fit calculated according to uncertainties from measurements stored in file meta-data
-
-    \Sep
-
 \end{compactitem}
-
-
-
-\CVItem{HackerRank Challenges}
-\SmallSep
-
-\begin{multicols}{2}
-
-    \begin{compactitem}[\color{Blue}$\circ$]
-
-
-        \item Project Euler 220:    Heighwey Dragon
-        \SmallSep
-        \item Project Euler 217:    Balanced Numbers
-        \SmallSep
-        \item Project Euler 206:    Concealed Square
-        \SmallSep
-        \item Project Euler 1:      Multiples of 3 and 5
-
-
-    \end{compactitem}
-
-\end{multicols}
-
-\Sep
+\LargeSep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Pro Skills and Interests
@@ -261,7 +228,7 @@
 
 \notoserif \CVSection{Professional Skills \& Interests}
 \normalfont
-\SmallSep
+\LargeSep
 
 \CVItem{Languages \& Environments}
 \Sep
@@ -272,7 +239,7 @@
 
 		\item Python 3
         \SmallSep
-        \item React.js (Javascript)
+        \item react.js
         \SmallSep
         \item MATLAB, LaTeX
         \SmallSep
@@ -291,20 +258,10 @@
 
     \begin{compactitem}[\color{Blue}$\circ$]
 
-        \item Software \& Algorithm Design
+        \item Algorithm Design
         \SmallSep
         \item Object Oriented Programming
         \SmallSep
-        \item Functional Programming
-        \SmallSep
-        \item tensorflow2 and keras for CPU, GPU, \& TPU
-        \SmallSep
-        \item OpenCV for static image analysis
-        \SmallSep
-
-        \item Time/Space Complexity Analysis
-        \SmallSep
-
         \item Docker, Github, \& Jenkins
         \SmallSep
         \item Jupyter Notebooks
@@ -313,10 +270,12 @@
         \SmallSep
         \item Jira, Confluence, Bitbucket
 		\SmallSep
+        \item json \& yml
+        \SmallSep
         \item VMs \& Virtual Envs
         \SmallSep
 
-        \item json \& yml
+        \item Machine Learning in Python
         \SmallSep
         \item SPARQL, NoSQL \& Graph Databases
         \SmallSep
@@ -337,15 +296,12 @@
     \end{compactitem}
 
 \end{multicols}
-\Sep
+\LargeSep
 
 \CVItem{Professional Skills \& Abilities}
 \Sep
-
 \begin{multicols}{2}
-
     \begin{compactitem}[\color{Blue}$\circ$]
-
         \item Expert Problem Solving
         \SmallSep
         \item Adaptable to Broad, Multi-disciplinary Teams of all sizes
