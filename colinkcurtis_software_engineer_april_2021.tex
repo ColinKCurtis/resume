@@ -1,0 +1,384 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colin K Curtis Software Engineer Resume
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Updated April 20, 2021
+%%%%%%%%
+
+\documentclass[letterpaper,final]{memoir}
+
+% misc
+\pagestyle{empty}					% no pagenumbering
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% font setup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sfdefault]{noto}    % Google Noto font, sfdefault -> sans-serif is default                               % invoke '\notoserif{ xxx }' to make a selection with serif
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% required packages (add your own)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{flowfram}											% column layout
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}	% margins
+\usepackage{graphicx}											% figures
+\usepackage{url}												% URLs
+\usepackage[usenames,dvipsnames]{xcolor}						% color
+\usepackage{multicol}											% columns env.
+	\setlength{\multicolsep}{0pt}
+\usepackage{paralist}											% compact lists
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convenience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\LargeSep}{\vspace{1.3em}}
+\newcommand{\Sep}{\vspace{1.0em}}
+\newcommand{\SmallSep}{\vspace{0.4em}}
+
+\newenvironment{Summary}
+	{\ignorespaces\textbf{\color{Blue}Achievements}}
+	{\Sep\ignorespacesafterend}
+
+\newcommand{\CVSection}[1]
+	{\LARGE\textbf{#1}\par
+	\SmallSep\normalsize}
+
+\newcommand{\CVItem}[1]
+	{\textbf{\color{Blue} #1}}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\Huge \bfseries {\color{Blue} Colin K. Curtis - Software Engineer}
+
+\Sep
+\normalsize\normalfont
+
+\CVItem  \tab \bfseries {github.com/colinkcurtis \tab colinkcurtis@gmail.com  \tab  (919) 525 7837}
+
+\LargeSep
+
+%%%%%%%%%%%%%%%%%%%%%
+% Major Achievements
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Major Achievements}
+\normalfont
+
+\Sep
+
+\begin{compactitem}
+
+    \item \textbf{Developer} - Adaptive Learning Analysis for Images (ALAI), an Automated Image Analysis application
+    \SmallSep
+
+    \item \textbf{Developer} - Footprint Metric Analysis Tool (FMAT) - An image analysis tool for tire footprint measurement
+    \SmallSep
+
+    \item \textbf{Project Manager and Author} - 'Friction: Friend and Foe', book chapter in Surface and Interface Science Vol. 8
+
+
+\end{compactitem}
+\LargeSep
+
+%%%%%%%%%%%%%%%%%%%
+% Work Experience
+%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Work Experience}
+\normalfont
+\Sep
+\CVItem{Software Engineer - EASi; \textit{April 2019 - Present}}
+\begin{compactitem}[\color{Blue}$\circ$]
+    \SmallSep
+    \item Python Engineer focused on the architecture and implementation of (often web-based) applications for science and engineering.
+    This includes use of Continuous Integration/Deployment (CI/CD) tools, cloud-based test suites, UI/UX, and back-end analysis
+    using analytic, numerical, and machine learning techniques. Working at the interface of science and software to help move
+    projects from in-situ to in-silico.
+    \SmallSep
+    \item  Contributor to automotive CAD system is written in Python3 and React.js with a premium placed on reliability, readability, and reusability
+    \SmallSep
+    \item Strong focus on consistent and effective communication within work groups
+    \SmallSep
+    \item test-driven development using pytest/unittest and robot frameworks
+    \SmallSep
+    \item Converted and upgraded FMAT, a tire image analysis tool, from MATLAB to Python3 - introduced
+    \newline
+    'alpha-shapes' computational geometry technique to improve the boundary estimates of complex 2-D geometries
+    \SmallSep
+    \item Agile style development with two-week sprint timelines, daily stand-up meetings, and frequent code reviews
+    \SmallSep
+\end{compactitem}
+
+\Sep
+
+\CVItem{Research Software Engineer - Renaissance Computing Institute (RENCI) @ UNC - Chapel Hill; \textit{June 2018 - March 2019}}
+\begin{compactitem}[\color{Blue}$\circ$]
+    \SmallSep
+    \item NIH National Center for Advancing Translational Sciences (NCATS) - Biomedical Data Translator Project - Green Team
+    \SmallSep
+    \item Statistical Analysis: risk/odds ratio testing and Bayseian statistics to quantify drug performance
+    \SmallSep
+    \item Utilized Jupyter Notebooks, with Python3, to analyze data and visualize results in an interactive, shareable format
+    \SmallSep
+    \item Embedded SQL and SPARQL queries within Python to access and parse Ontologies
+    \SmallSep
+    \item Performance tested services for high-concurrency request loads using and 'locustio' and 'pytest'
+
+
+\end{compactitem}
+
+\Sep
+
+\CVItem{Research Assistant, Krim Group; \textit{January 2015 - April 2018}}
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \SmallSep
+
+    \item Developed ALAI, an application for automating fractal analysis of nanoscopic images
+    \item Primary skills: equipment building, data capture, data analysis, and mathematical modeling
+    \item Subject-matter expertise: in carbon nano-structures, inter-facial friction
+    \item Software packages and programming environments included Origin, LabVIEW, MATLAB, and Python 3
+
+\end{compactitem}
+\Sep
+
+\CVItem{Research Assistant, Clarke Group; \textit{January 2013 - July 2014}}
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \SmallSep
+
+    \item Research focus: Polymers, LASER for spectroscopy and photothermal heating, nanoparticle synthesis
+    \item Utilized ANSYS Maxwell mesh-calculation to simulate 3-D electro-magnetic fields
+    \item Used and maintained LabVIEW software systems for instrument control and data collection
+\end{compactitem}
+
+\Sep
+
+\CVItem{Lab Instructor, Department of Physics, NC State University; \textit{August 2012 - December 2014}}
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \SmallSep
+    \item Instructor for introductory physics laboratory sections (PY 205 and PY 208)
+\end{compactitem}
+
+\LargeSep
+
+\newpage
+
+%%%%%%%%%
+% Independent Coding Projects
+%%%%%%%%%
+
+\notoserif \CVSection{Independent Coding Projects}
+\SmallSep
+
+\normalfont
+\CVItem{www.github.com/colinkcurtis}
+\LargeSep
+
+\CVItem{Numerati}
+\SmallSep
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \item Numerati is a Python package for training, validating, and predicting with existing machine learning models
+    \SmallSep
+    \item The tool allow users to fluidly compare the results of multiple models without leaving the interface
+    \SmallSep
+    \item Numerati provides an accessible platform with straight-forward feedback to accelerate the pace of machine learning adoption
+    \SmallSep
+    \item This tool is in the early stages of development and changing rapidly!
+
+\end{compactitem}
+\Sep
+
+\CVItem{Adaptive Learning Analysis for Images (ALAI)}
+\SmallSep
+\begin{compactitem}[\color{Blue}$\circ$]
+    \item An automated image analysis application in MATLAB using categorization and regression fitting techniques
+    \SmallSep
+    \item Reduced user's active analysis time, per image, by a factor of \textasciitilde 50, drastically reducing labor costs
+    \SmallSep
+    \item ALAI calculates and produces figures for: fractal dimension, saturation roughness, and correlation length
+    \SmallSep
+    \item Classification of 'fitting zones' (linear v. exponential) by $Adjusted-R^2$ comparison between multiple fitting attempts
+    \SmallSep
+    \item Weighting and bias-of-fit calculated according to uncertainties from measurements stored in file meta-data
+\end{compactitem}
+\LargeSep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pro Skills and Interests
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\notoserif \CVSection{Professional Skills \& Interests}
+\normalfont
+\LargeSep
+
+\CVItem{Languages \& Environments}
+\Sep
+
+\begin{multicols}{1}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+
+		\item Python 3
+        \SmallSep
+        \item react.js
+        \SmallSep
+        \item MATLAB, LaTeX
+        \SmallSep
+        \item Linux, macOS, \& Windows
+
+	\end{compactitem}
+
+\end{multicols}
+
+\Sep
+
+\CVItem{Software Engineering Toolkit}
+\Sep
+
+\begin{multicols}{2}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+
+        \item Algorithm Design
+        \SmallSep
+        \item Object Oriented Programming
+        \SmallSep
+        \item Gitlab and Azure for CI/CD
+        \SmallSep
+        \item Jupyter Notebooks
+        \SmallSep
+        \item RESTful \& OpenAPI standards
+		\SmallSep
+        \item json \& yml
+        \SmallSep
+        \item VMs \& Virtual Envs
+        \SmallSep
+        \item SPARQL, NoSQL \& Graph Databases
+        \SmallSep
+        \item pytest \& locustio
+        \SmallSep
+        \item networkx, obonet, \& pronto
+        \SmallSep
+        \item Flask, FastAPI
+        \SmallSep
+        \item pandas \& numpy
+        \SmallSep
+        \item memory\_profiler
+        \SmallSep
+
+    \end{compactitem}
+
+\end{multicols}
+\LargeSep
+
+\CVItem{Professional Skills \& Abilities}
+\Sep
+\begin{multicols}{2}
+    \begin{compactitem}[\color{Blue}$\circ$]
+        \item Expert Problem Solving
+        \SmallSep
+        \item Adaptable to Broad, Multi-disciplinary Teams of all sizes
+        \SmallSep
+        \item Statistical Data Analysis
+        \SmallSep
+        \item Image Analysis
+        \SmallSep
+        \item User Interface \& Experience Design
+        \SmallSep
+        \item Strong Written, Verbal, and Quantitative Skills
+        \SmallSep
+        \item Advanced Physics Knowledge
+        \SmallSep
+        \item Mathematics for Machine Learning: Statistics, Linear Algebra, Probability and Information Theory
+        \SmallSep
+        \item Data Analysis
+        \SmallSep
+        \item Fractal Analysis
+
+	\end{compactitem}
+
+\end{multicols}
+
+
+
+\CVItem{Other Interests}
+\Sep
+
+\begin{multicols}{2}
+
+    \begin{compactitem}[\color{Blue}$\circ$]
+
+        \item Science Fiction, History, and Biographies
+        \SmallSep
+        \item Skiing, Running, and Mountain Biking
+        \SmallSep
+        \item Gardening and Cooking
+
+
+	\end{compactitem}
+\end{multicols}
+\LargeSep
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\notoserif \CVSection{Education Milestones}
+\normalfont
+\Sep
+\begin{compactitem}[\color{Blue}$\circ$]
+
+\item \textbf{M.S. Physics}, North Carolina State University (2014)
+\SmallSep
+
+\item \textbf{B.S. Physics, Mathematics Minor}, Appalachian State University (2012)
+
+\end{compactitem}
+\Sep
+
+
+%%%%%%%%%%
+% Research
+%%%%%%%%%%%
+
+\notoserif \CVSection{Research Publications}
+\normalfont
+
+\Sep
+
+\begin{compactitem}[\color{Blue}$\circ$]
+
+    \item First Author, \textit{A Comparative Study of the Nanoscale and Macroscale Attributes... of Nanodiamonds}, Beilstein Journal of Nanotechnology, Sep 2017 (PDF available here: https://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-8-205.pdf)
+    \SmallSep
+
+    \item Second Author, \textit{Unconfined, melt edge electrospinning from multiple, spontaneous, self-organized polymer jets}, Materials Research Express, 28 Nov 2014 (Vol. 1, Num. 4)
+    \SmallSep
+
+    \item Third Author, \textit{A Tribological Study of $\gamma$-Fe$_{2}O_{3}$ Nanoparticles in Aqueous Suspension}, Tribology Letters, Dec 2018 (66:130)
+
+\end{compactitem}
+
+\end{document}
